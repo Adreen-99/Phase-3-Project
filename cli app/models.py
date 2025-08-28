@@ -20,6 +20,7 @@ class Customer(Base):
     # Relationships
     orders = relationship("Order", back_populates="customer", cascade="all, delete-orphan")
 
+
 class Product(Base):
     __tablename__ = 'products'
     
