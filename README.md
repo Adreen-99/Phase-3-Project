@@ -33,3 +33,71 @@ A command-line interface (CLI) application for managing customers, products, and
    
    cd order-management-system
 
+2. **Create Virtual Environment** 
+
+   pipenv install
+
+   pipenv shell
+
+3. **Install Dependencies**
+
+   pip install / pyenv install
+
+   pipenv shell / pip shell
+
+
+4. **Run Database Migrations**
+
+   python cli app/models.py
+
+5. **Start the Application**
+
+   python main.py
+
+## Usage
+
+Once the program runs, you’ll see a menu-driven CLI with options like:
+
+1. Add a Customer
+2. View Customers
+3. Add a Product
+4. View Products
+5. Create an Order
+6. View Orders
+7. Update Stock
+8. Exit
+
+
+Select a number to perform the operation.
+
+## Contributing
+
+Fork the repository
+
+Create a new feature branch:
+
+      git checkout -b feature-new-function
+
+
+Commit changes:
+
+      git commit -m "Added new feature"
+
+
+Push branch:
+
+      git push origin feature-new-function
+
+
+Open a Pull Request
+
+
+## License
+
+This project is licensed under the MIT License – feel free to use, modify, and distribute.
+
+## Author
+
+Email:   githinjiadreen@gmail.com
+
+GitHub:  https://github.com/Adreen-99
