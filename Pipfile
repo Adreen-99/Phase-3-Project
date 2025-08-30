@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+click = "*"
 sqlalchemy = "*"
 alembic = "*"
-click = "*"
 
 [dev-packages]
 
