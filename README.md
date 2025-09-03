@@ -54,6 +54,18 @@ A command-line interface (CLI) application for managing customers, products, and
 
          python main.py
 
+## Database Migrations
+This project uses Alembic for database migrations.
+
+1. To create a new migration after modifying models:
+
+            alembic revision --autogenerate -m "Your migration message"
+
+2. To apply migrations:
+
+            alembic upgrade head
+
+
 ## Usage
 
 Once the program runs, you’ll see a menu-driven CLI with options like:
@@ -67,8 +79,6 @@ Once the program runs, you’ll see a menu-driven CLI with options like:
 7. Update Stock
 8. Exit
 
-
-Select a number to perform the operation.
 
 ## Contributing
 
